@@ -2,11 +2,7 @@
 
 A comprehensive mini-project simulating core Kubernetes features, including node management, pod scheduling, health monitoring, a command-line interface (CLI), and a web-based UI dashboard. Built with Python, Flask, Docker, and a custom API server, this project demonstrates a simplified Kubernetes-like cluster for educational purposes.
 
-## 👥 Team
-- **SRNs**: 018, 020, 023, 025
-- **Names**: Abhishek Patil, Abhishek G M, Achyuth K, Adarsh Upase
-- **Institution**: PES University
-- **Course**: Cloud Computing
+
 
 ## 🎯 Project Overview
 The Kubernetes Simulator replicates key Kubernetes functionalities in a lightweight, local environment:
@@ -176,6 +172,13 @@ python client/cli.py set-algorithm <algorithm>
 - `<algorithm>`: One of: `first-fit`, `best-fit`, `worst-fit`, `round-robin`
 
 **Examples**:
+Example for Best fit
+Befor assigning 
+<img width="1899" height="643" alt="Screenshot 2025-09-17 030033" src="https://github.com/user-attachments/assets/529f9b4d-7206-4d9e-b4af-65b4b988223f" />
+After Assigning using Best fit
+<img width="1904" height="665" alt="Screenshot 2025-09-17 030049" src="https://github.com/user-attachments/assets/1f3a3160-238e-4150-a004-08c7158ffdcd" />
+
+
 ```bash
 python client/cli.py set-algorithm best-fit      # Use Best-Fit algorithm
 python client/cli.py set-algorithm worst-fit     # Use Worst-Fit algorithm
