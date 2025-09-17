@@ -1,4 +1,4 @@
-# Kubernetes Simulator (018_020_023_025)
+# Kubernetes Simulator 
 
 A comprehensive mini-project simulating core Kubernetes features, including node management, pod scheduling, health monitoring, a command-line interface (CLI), and a web-based UI dashboard. Built with Python, Flask, Docker, and a custom API server, this project demonstrates a simplified Kubernetes-like cluster for educational purposes.
 
