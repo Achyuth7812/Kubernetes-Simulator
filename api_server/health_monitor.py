@@ -5,6 +5,7 @@ class HealthMonitor:
         self.node_manager = node_manager
         self.heartbeat_timeout = heartbeat_timeout
         self.last_heartbeat = {}
+        #2.1
 
     def record_heartbeat(self, node_id):
         if node_id in self.node_manager.get_nodes():
